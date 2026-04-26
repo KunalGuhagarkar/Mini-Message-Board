@@ -1,0 +1,181 @@
+/* RESET */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* BODY */
+body {
+  background-color: #f5f7fb;
+  padding: 40px;
+}
+
+/* =========================
+   HEADINGS
+========================= */
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #2c3e50;
+}
+
+/* =========================
+   LIST PAGE (INDEX)
+========================= */
+ul {
+  list-style: none;
+  max-width: 700px;
+  margin: auto;
+}
+
+li {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+li:hover {
+  transform: translateY(-3px);
+}
+
+li p {
+  margin-bottom: 8px;
+  color: #333;
+}
+
+li p:first-child {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+/* =========================
+   FORM PAGE
+========================= */
+form {
+  max-width: 500px;
+  margin: auto;
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+label {
+  display: block;
+  margin-top: 15px;
+  margin-bottom: 5px;
+  color: #333;
+  font-weight: 500;
+}
+
+input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  outline: none;
+  transition: border 0.2s ease;
+}
+
+input[type="text"]:focus {
+  border-color: #3498db;
+}
+
+input[type="submit"] {
+  margin-top: 20px;
+  width: 100%;
+  background-color: #3498db;
+  color: white;
+  padding: 10px;
+  border-radius: 6px;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s ease;
+}
+
+input[type="submit"]:hover {
+  background-color: #2980b9;
+}
+
+/* =========================
+   DETAIL PAGE
+========================= */
+.message-detail {
+  max-width: 500px;
+  margin: auto;
+}
+
+.message-detail p {
+  background: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+  color: #333;
+}
+
+.message-detail p:first-child {
+  font-weight: bold;
+  color: #2c3e50;
+}
+
+.message-detail p:nth-child(2) {
+  font-size: 16px;
+}
+
+.message-detail p:nth-child(3) {
+  font-size: 13px;
+  color: #777;
+}
+
+/* =========================
+   BUTTONS (GLOBAL)
+========================= */
+button {
+  margin-top: 10px;
+  padding: 8px 14px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: all 0.2s ease;
+}
+
+/* View button */
+a button {
+  background-color: #3498db;
+  color: white;
+}
+
+a button:hover {
+  background-color: #2980b9;
+}
+
+/* Add new button (index page) */
+ul > a button {
+  background-color: #2ecc71;
+  margin-top: 20px;
+}
+
+ul > a button:hover {
+  background-color: #27ae60;
+}
+
+/* Back button */
+body > a button {
+  display: block;
+  margin: 20px auto;
+  background-color: #7f8c8d;
+  color: white;
+}
+
+body > a button:hover {
+  background-color: #636e72;
+}
+
+
