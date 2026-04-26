@@ -1,7 +1,3 @@
-Here’s a **proper GitHub-ready README** (no broken formatting, no nested code blocks issues). Just copy-paste this:
-
----
-
 # 📩 Mini Message Board
 
 A simple and elegant message board built with **Node.js**, **Express**, and **EJS**.
