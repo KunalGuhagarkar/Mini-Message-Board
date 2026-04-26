@@ -121,7 +121,7 @@ node app.js
 
 ## 👤 Author
 
-Kunal
+Kunal Guhagarkar
 
 ---
 
